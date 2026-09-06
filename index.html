@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Philip Patillo — Computer Science &amp; Cybersecurity</title>
 <meta name="description" content="Philip Patillo — Computer science graduate with a cybersecurity focal path. IT support, application development, and data analysis experience. Open to full-time roles in the Raleigh-Durham-Chapel Hill area.">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Philip Patillo — Computer Science & Cybersecurity">
+<meta property="og:description" content="Computer science graduate with a cybersecurity focal path. IT support, application development, and data analysis experience. Open to full-time roles in the Raleigh-Durham-Chapel Hill area.">
+<meta property="og:image" content="https://philippatillo.github.io/assets/philip-headshot.jpg">
+<meta property="og:url" content="https://philippatillo.github.io/">
+<meta property="og:site_name" content="Philip Patillo">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Philip Patillo — Computer Science & Cybersecurity">
+<meta name="twitter:description" content="Computer science graduate with a cybersecurity focal path, based in the Raleigh-Durham-Chapel Hill area.">
+<meta name="twitter:image" content="https://philippatillo.github.io/assets/philip-headshot.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -140,6 +153,17 @@
           <ul class="project__stack">
             <li>React Native</li><li>Expo</li><li>React Navigation</li><li>Context API</li>
           </ul>
+          <details class="project__more">
+            <summary>Read more</summary>
+            <div class="project__more-body">
+              <h4>The problem</h4>
+              <p>A healthcare client needed a way for surgical patients to track recovery milestones after a procedure, without building on top of their existing practice-management software, which wasn't designed to be extended.</p>
+              <h4>What I built</h4>
+              <p>A cross-platform mobile app from scratch, using React Native, Expo, React Navigation, and Context API for state management. I set up a PR-based GitHub workflow so a second developer's contributions could be reviewed and merged safely.</p>
+              <h4>A key decision</h4>
+              <p>I chose a standalone login system over integrating with the client's existing practice software — a simpler, more maintainable path that I scoped and defended directly with a non-technical stakeholder.</p>
+            </div>
+          </details>
         </div>
       </article>
 
@@ -154,6 +178,17 @@
           <ul class="project__stack">
             <li>Django</li><li>SQL</li><li>AWS S3</li><li>GitHub Actions</li>
           </ul>
+          <details class="project__more">
+            <summary>Read more</summary>
+            <div class="project__more-body">
+              <h4>The problem</h4>
+              <p>Building a production-ready SaaS app for a multi-person team meant getting authentication, access control, and deployment right from the start — not bolting security on afterward.</p>
+              <h4>What I built</h4>
+              <p>Google OAuth for sign-in, role-based access control so different users see different capabilities, and AWS S3 for secure cloud storage — all built to meet baseline accessibility and security standards. I also led sprint planning, turning requirements into a prioritized backlog the team could actually execute against.</p>
+              <h4>A key decision</h4>
+              <p>I automated the CI/CD pipeline with GitHub Actions early, rather than deploying manually — it cut deployment steps and kept test execution consistent across everyone's commits, which mattered more as the team grew.</p>
+            </div>
+          </details>
         </div>
       </article>
 
@@ -168,6 +203,17 @@
           <ul class="project__stack">
             <li>Python</li><li>Cryptography</li><li>Secure file handling</li>
           </ul>
+          <details class="project__more">
+            <summary>Read more</summary>
+            <div class="project__more-body">
+              <h4>The problem</h4>
+              <p>Using a cryptography library hides how public-key encryption actually works. I wanted to understand RSA well enough to implement it myself, not just call a function that does it.</p>
+              <h4>What I built</h4>
+              <p>A working RSA cryptosystem from scratch — key generation, encryption, decryption, and cryptographic validation — plus a companion Python tool that captures, timestamps, and logs security events using secure file handling practices.</p>
+              <h4>What it reinforced</h4>
+              <p>Building the math and the key management by hand made concepts like key size trade-offs and validation failure modes concrete in a way that using a library never would have.</p>
+            </div>
+          </details>
         </div>
       </article>
 
@@ -182,6 +228,15 @@
           <ul class="project__stack">
             <li>ArcGIS</li><li>Spatial analysis</li>
           </ul>
+          <details class="project__more">
+            <summary>Read more</summary>
+            <div class="project__more-body">
+              <h4>The problem</h4>
+              <p>Emergency planners need to know which populations are most exposed before a coastal event happens, not after — that means turning raw geographic and demographic data into something a planner can actually act on.</p>
+              <h4>What I built</h4>
+              <p>Using ArcGIS, I analyzed large coastal datasets to produce evacuation planning maps that flag at-risk populations, supporting data-driven decisions for emergency response planning.</p>
+            </div>
+          </details>
         </div>
       </article>
 
