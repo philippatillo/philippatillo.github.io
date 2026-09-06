@@ -405,6 +405,44 @@ a:focus-visible, button:focus-visible {
   border-radius: 3px;
 }
 
+.project__more {
+  margin-top: 18px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.project__more summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--accent);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.project__more summary::-webkit-details-marker { display: none; }
+.project__more summary::before {
+  content: '+';
+  display: inline-block;
+  width: 14px;
+}
+.project__more[open] summary::before { content: '–'; }
+.project__more-body {
+  padding-top: 16px;
+  max-width: 62ch;
+}
+.project__more-body h4 {
+  font-size: 0.82rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  margin: 18px 0 6px;
+}
+.project__more-body h4:first-child { margin-top: 0; }
+.project__more-body p {
+  margin: 0;
+  color: var(--text);
+}
+
 /* ---------------------------------------------
    Skills
 --------------------------------------------- */
